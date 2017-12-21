@@ -2,10 +2,11 @@
     <div class="top">
         <!--头像左边部分-->
         <div class="top-left">
-            <div class="logo"><a href="/"><img src="/static/images/h.gif"/></a></div>
-{#                <div class="logo"><a href="#"><img src="/static/images/logo.png"/></a></div>#}
+            <!--
+            <div class="logo"><a href="/"><img src="/static/images/logo.gif"/></a></div>
+            -->
 
-            <!--滚动消息-->
+            <!--滚动消息
             <div class="web-xiaoxi">
                 <i class="el-speaker"></i>
                 <ul class="mulitline">
@@ -14,7 +15,9 @@
                     <li>完美自适应手机</li>
                 </ul>
             </div>
-            <!--END 消息 -->
+            END 消息 -->
+
+        <h1 class="web-xiaoxi" id="logo"><a href="{% url "blog:index" %}">Miclle's小镇</a></h1>
 
             <!--手机菜单按钮-->
             <div class="mobile-nav"><i class="el-lines"></i><i class="el-remove"></i></div>
@@ -37,7 +40,7 @@
                 </li>
                 <li><a href="{% url "blog:archive" %}">归档</a></li>
                 <li><a href="{% url "blog:link" %}">链接</a></li>
-                <li><a href="{% url "blog:message" %}">留言</a></li>
+                <!--li><a href="{% url "blog:message" %}">留言</a></li-->
             </ul>
         </nav>
 
@@ -68,13 +71,16 @@
                 </li>
                 <li><a href="{% url "blog:archive" %}">归档</a></li>
                 <li><a href="{% url "blog:link" %}">链接</a></li>
-                <li><a href="{% url "blog:message" %}">留言</a></li>
+                <!--li><a href="{% url "blog:message" %}">留言</a></li-->
             </ul>
         </div>
     </div>
     <!--换肤--->
     <script src="/static/js/skin.js"></script>
-    <div class="select-skin">
+    <script>
+        setActiveStyleSheet('jianyue')
+    </script>
+    <!--div class="select-skin">
         <div class="skin-btn">
             <a href="javascript:void(0);" class="skin-btn-open">换<br>肤</a>
         </div>
@@ -86,9 +92,9 @@
                 </div>
                 <div class="skin-list"><a href="#" onclick="setActiveStyleSheet('jianyue'); return false;" class="btn2">简约</a>
                 </div>
-                <div class="skin-list"><a href="#" onclick="setActiveStyleSheet('qingshuang'); return false;"
-                                          class="btn3">清爽</a></div>
+                <div class="skin-list"><a href="#" onclick="setActiveStyleSheet('qingshuang'); return false;" class="btn3">清爽</a>
+                </div>
             </div>
         </div>
-    </div>
+    </div-->
 </header>

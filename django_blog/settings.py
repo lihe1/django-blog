@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -81,11 +81,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_blog',
-        'USER': 'root',
-        'PASSWORD': '5849312',
-        'HOST': '127.0.0.1',
-        'PORT': '3306'
-    }
+        'USER': 'lihe',
+        'PASSWORD': 'Yxhy40#602',
+        'HOST': '10.129.6.175',
+        'PORT': '3306',
+        'OPTIONS': {
+            'autocommit': True,
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        }         
+    }    
 }
 
 

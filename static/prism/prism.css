@@ -7,9 +7,9 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: white;
+	color: #ffffff !important;
 	background: none;
-	text-shadow: 0 -.1em .2em black;
+/*	text-shadow: 0 -0.1em 0.2em #f3ecec;*/
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
@@ -37,7 +37,7 @@ pre[class*="language-"] {
 
 pre[class*="language-"],
 :not(pre) > code[class*="language-"] {
-	background: hsl(30, 20%, 25%);
+	background: #2d2d2d !important;
 }
 
 /* Code blocks */
@@ -45,9 +45,9 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
-	border: .3em solid hsl(30, 20%, 40%);
+	border: .3em solid hsl(30, 100%, 99%);
 	border-radius: .5em;
-	box-shadow: 1px 1px .5em black inset;
+/*	box-shadow: 1px 1px 0.5em rgb(85, 85, 85) inset; */
 }
 
 /* Inline code */
@@ -63,7 +63,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: hsl(30, 20%, 50%);
+	color: #999 !important;
 }
 
 .token.punctuation {
@@ -80,7 +80,7 @@ pre[class*="language-"] {
 .token.number,
 .token.constant,
 .token.symbol {
-	color: hsl(350, 40%, 70%);
+	color: #ffcd22 !important;
 }
 
 .token.selector,

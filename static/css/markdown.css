@@ -12,7 +12,7 @@
     font-size: 14px;
     word-wrap: break-word;
     color: #555;
-    background: #f5f7f9;
+    background: rgba(255,255,255,0.9);
 
 }
 
@@ -97,7 +97,7 @@
 
 .markdown-body .pl-ml {
 
-    color: #693a17;
+    color: #63a35c;
 
 }
 
@@ -880,7 +880,7 @@
 
     overflow: auto;
 
-    font-size: 85%;
+    font-size: inherit!important;
 
     line-height: 1.45;
 

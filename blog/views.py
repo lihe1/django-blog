@@ -90,6 +90,8 @@ def detail(request, pk):
     """
     article = get_object_or_404(Article, pk=pk)
     article.viewed()
+    print "-----------"
+    print  article.id
     return render(request, 'blog/detail.html', {"article": article,
                                                 "source_id": article.id})
 
