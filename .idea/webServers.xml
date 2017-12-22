@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="495ba528-6c35-4ab2-b5b7-09a8039d0aff" name="django-blog" url="http://10.129.6.175">
+        <fileTransfer host="10.129.6.175" port="22" accessType="SFTP" password="dff3dfd2dfc2dfd3df9edf9adf89df9cdf9adf98" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9e6b1336-5471-4948-82fa-25cb3677d2c0" name="ToAWS" url="http://18.216.129.98">
+        <fileTransfer host="18.216.129.98" port="22" privateKey="C:\forzbwwy.pem" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

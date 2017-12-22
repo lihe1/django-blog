@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'django_blog',
         'USER': 'lihe',
         'PASSWORD': 'Yxhy40#602',
-        'HOST': '10.129.6.175',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {
             'autocommit': True,

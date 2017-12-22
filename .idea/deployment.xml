@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ToAWS">
+    <serverData>
+      <paths name="ToAWS">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/django-blog" local="$PROJECT_DIR$" web="/home/ubuntu/django-blog" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="django-blog">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/django-blog" local="$PROJECT_DIR$" web="/home/django-blog" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
